@@ -20,7 +20,7 @@ export default function RestaurantDetailScreen ({ navigation, route }) {
     fetchRestaurantDetail()
   }, [route])
 
-  // Solution
+  //  Solution
   const isAboutToBeInvisible = (deadline) => {
     console.log(deadline)
     console.log(typeof (deadline))

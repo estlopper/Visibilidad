@@ -48,7 +48,7 @@ const create = async function (req, res) {
   }
 }
 
-// Alternative solution
+//  Alternative solution
 // const filterNotVisible = (restaurant) => {
 //   return restaurant.products.filter((product) => product.isVisible())
 // }

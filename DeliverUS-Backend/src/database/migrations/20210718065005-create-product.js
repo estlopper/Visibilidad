@@ -27,7 +27,7 @@ module.exports = {
       availability: {
         type: Sequelize.BOOLEAN
       },
-      // Solution
+      //  Solution
       visibleUntil: {
         type: Sequelize.DATE
       },

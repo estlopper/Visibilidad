@@ -164,7 +164,7 @@ export default function EditProductScreen ({ navigation, route }) {
               />
               <ErrorMessage name={'productCategoryId'} render={msg => <TextError>{msg}</TextError> }/>
 
-              {/* SOLUTION */}
+              {/*  SOLUTION */}
               <InputItem
                 name='visibleUntil'
                 label='Visible until:'

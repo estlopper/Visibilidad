@@ -7,7 +7,7 @@ const loadModel = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate (models) {
-      // define association here
+      //  define association here
       const OrderProducts = sequelize.define('OrderProducts', {
         quantity: DataTypes.INTEGER,
         unityPrice: DataTypes.DOUBLE

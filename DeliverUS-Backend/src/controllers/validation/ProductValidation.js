@@ -29,7 +29,7 @@ const create = [
   check('image').custom((value, { req }) => {
     return checkFileMaxSize(req, 'image', maxFileSize)
   }).withMessage('Maximum file size of ' + maxFileSize / 1000000 + 'MB'),
-  // Solution
+  //  Solution
   check('visibleUntil').optional().isDate().toDate(),
   check('visibleUntil').custom((value, { req }) => {
     const currentDate = new Date()
